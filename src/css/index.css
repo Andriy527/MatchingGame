@@ -1,0 +1,60 @@
+:root {
+    --bgColor: #f0f0f0;
+    --itemsColor: #333;
+    --fontColor: #fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bgColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+    max-width: 600px;
+}
+
+.card {
+    background-color: var(--itemsColor);
+    color: var(--fontColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.timer, .score {
+    display: flex;
+    align-items: center;
+    color: var(--fontColor);
+}
+
+.button-container {
+   padding-bottom: 20px;
+}
+
+#reset-button {
+    background-color: var(--itemsColor);
+    color: var(--fontColor);
+    border-radius: 5px;
+    font-size: 1em;
+    padding: 10px 15px;
+}
+
