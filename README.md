@@ -1,5 +1,5 @@
 ## Matching Game
-Welcome to the Mathing Game! This is a simple web-based math game implemented using vanilla JavaScript. The game tests your math skills by presenting you with basic arithmetic questions that you need to solve within a certain time limit.
+Welcome to the Matching Game! This is a simple web-based math game implemented using vanilla JavaScript. The game tests your math skills by presenting you with basic arithmetic questions that you need to solve within a certain time limit.
 
 ## How to Play
 - Clone or download the repository to your local machine.
